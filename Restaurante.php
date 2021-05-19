@@ -3,7 +3,7 @@
 $servername = "fdb27.runhosting.com";
 $basededatos = "3802606_wpressa36b517a";
 $username = "3802606_wpressa36b517a";
-$password = "KhUW=X.K7O[evyqZ";
+$password = "Alejandr01";
 
 // Crear conexion con la base de datos
 $conexion = new mysqli($servername, $username, $password, $basededatos);
