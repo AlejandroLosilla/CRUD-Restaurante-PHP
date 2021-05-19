@@ -17,7 +17,7 @@ if ($conexion->connect_error) {
 $conexion->set_charset("utf8");
 
 //Se selecciona la fila cuyo nombre coincide con el parámetro pasado por GET
-$resultado = $conexion -> query ("SELECT * FROM MENU where plato=".$_GET['plato']);
+$resultado = $conexion -> query ("SELECT * FROM MENU where id=".$_GET['id']);
 $fila = $resultado->fetch_array();
 
 ?>
@@ -28,7 +28,7 @@ $fila = $resultado->fetch_array();
 <body>
 
 <h5>MODIFICAR MENU</h5>
-<form action="updateContacto.php"  method="get">  
+<form action="updateMenu.php"  method="get">  
   <p>Plato: <input type="text" name="plato" readonly="readonly" value=<?php echo "'".$fila[0]."'"?> ></p>
   <p>ID: <input type="text" name="id" value='<?php echo $fila[1]?>' ></p>
   <p>Precio: <input type="text" name="precio" value='<?php echo $fila[2]?>' ></p>
