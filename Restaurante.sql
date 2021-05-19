@@ -1,4 +1,4 @@
-REATE DATABASE Restaurante;
+CREATE DATABASE Restaurante;
 
 CREATE TABLE Menu(
 plato VARCHAR(50),
