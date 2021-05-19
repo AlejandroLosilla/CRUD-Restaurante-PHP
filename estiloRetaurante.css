@@ -1,0 +1,19 @@
+  
+table {
+   width: 50%;
+   border: 1px solid #000;
+}
+th {
+   width: 25%;
+   text-align: left;
+   vertical-align: top;
+   border: 1px dotted red;
+   background: lightgreen;
+}
+td {
+   width: 25%;
+   text-align: left;
+   vertical-align: top;
+   border: 1px dotted red;
+   background: lightgrey;
+}
