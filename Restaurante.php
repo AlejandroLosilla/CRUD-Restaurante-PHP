@@ -1,8 +1,8 @@
 <?php
 //Parámetros de conexión a la base de datos
-$servername = "fdb27.runhosting.com";
-$basededatos = "3802606_wpressa36b517a";
-$username = "3802606_wpressa36b517a";
+$servername = "	fdb27.runhosting.com";
+$basededatos = "3809872_restaurante";
+$username = "3809872_restaurante";
 $password = "Alejandr01";
 
 // Crear conexion con la base de datos
